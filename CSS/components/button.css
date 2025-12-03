@@ -1,0 +1,14 @@
+.btn-terracota {
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 5px;
+  background-color: #CC7E65; /* Couleur Terracota */
+  color: white;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn-terracota:hover {
+  background-color: #B46A55;
+}
