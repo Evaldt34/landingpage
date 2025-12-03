@@ -1,17 +1,16 @@
 .container {
-    width: 900px;  /* Largeur fixe sur les grands écrans */
-    margin: 0 auto;  /* Centrage automatique */
-    padding: 0 20px; /* Ajout d'un petit padding pour éviter que le contenu ne touche les bords sur mobile */
+    width: 900px;  
+    margin: 0 auto;  
+    padding: 0 20px; 
 }
 
-/* Responsivité du conteneur */
 @media (max-width: 992px) {
     .container {
-        width: 80%; /* Passe à 80% de la largeur de la fenêtre sur les grands écrans */
+        width: 80%; 
     }
 }
 @media (max-width: 768px) {
     .container {
-        width: 90%; /* Passe à 90% de la largeur de la fenêtre sur les petits écrans */
+        width: 90%; 
     }
 }
